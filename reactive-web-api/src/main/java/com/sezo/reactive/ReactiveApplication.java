@@ -4,12 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
-import org.springframework.util.RouteMatcher.Route;
-import org.springframework.web.reactive.function.server.RouterFunction;
-import org.springframework.web.reactive.function.server.ServerResponse;
 
-import com.sezo.reactive.handler.ProductHandler;
 import com.sezo.reactive.model.Product;
 import com.sezo.reactive.repository.ProductRepository;
 

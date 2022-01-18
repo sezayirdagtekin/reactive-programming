@@ -38,7 +38,7 @@ public class ProductController {
 		return repository.findAll();
 	}
 
-	@GetMapping("id/{id}")
+	@GetMapping("/id/{id}")
 	Mono<ResponseEntity<Product>> getProduct(@PathVariable String id) {
 		return repository.findById(id)
 				.map(p -> ResponseEntity.ok(p))
