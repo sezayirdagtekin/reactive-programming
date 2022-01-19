@@ -33,7 +33,11 @@ public class ProductController {
 		this.repository = repository;
 	}
 
-	@GetMapping("all")
+	public ProductController() {
+		
+	}
+	
+	@GetMapping("/all")
 	Flux<Product> getAllProducts() {
 		return repository.findAll();
 	}

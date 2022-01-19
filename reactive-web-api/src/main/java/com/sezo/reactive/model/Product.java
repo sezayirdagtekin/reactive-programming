@@ -19,7 +19,7 @@ import lombok.ToString;
 @AllArgsConstructor(access = AccessLevel.PUBLIC)
 @NoArgsConstructor
 public class Product {
-
+	
 	@Id
 	private String id;
 
